@@ -351,6 +351,8 @@ unsigned int CGF::max_primitive_l() const noexcept {
     return max_l;
 }
 
+<<<<<<< HEAD
+=======
 /*
  * @fn get_contraction_norm
  * @brief Get the normalization constant for the pair of CGFs
@@ -360,6 +362,7 @@ unsigned int CGF::max_primitive_l() const noexcept {
  *
  * @return normalization constant
  */
+>>>>>>> a4c6ab14ba54a56cbf5a14289a71c6da2e1659af
 double CGF::get_contraction_norm() const {
     // NOTE: any GTO is fine for the same shell tuple (lmn)
     assert(gtos.size() != 0LU && "No GTOs found!");
